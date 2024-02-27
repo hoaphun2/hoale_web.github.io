@@ -1,0 +1,79 @@
+*{box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;}
+    .header{background-color: #0bd35b;
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 98%;
+    border: 1px solid #aaa7a7;
+    }
+    .name{font-size: 60px;
+    color: white;
+    font-weight: bold;
+    width: 98%;}
+    
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .header{background-color: #0babd3;
+            padding: 40px;
+            width:97%;
+            position:relative;
+            left: 20px;}
+        .tieude{font-size: 50px;
+            color:black}
+        .root>li{
+            list-style: none;
+            float: left;
+            position: relative;
+            display: block;
+        }
+        .root li a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding: 0px 15px 0px 15px;
+            line-height: 50px;
+            display: block;
+        }
+        .menu_web{
+            width: 97%;
+            height: 50px;
+            background-color: #0bd35b;
+            margin: 0px auto;
+            font-size: 22px;
+        }
+        
+        .root>li>a:hover
+        {background-color: yellowgreen;
+        color: rgb(248, 247, 244);
+        transform: ease-in 0.35s;}
+        .submenu{
+            width: 250px;
+            background-color: #0babd3;
+            min-height: 80px;
+            display: none;
+            position: absolute;
+        }
+        .submenu li{list-style: none;}
+        .submenu li a{
+            text-transform: none;
+            text-decoration: none;
+            color: snow;
+            display: block;
+            border: 1px solid #ccc;
+            line-height: 40px;
+            text-indent: 12px;
+        }
+        .root>li:hover .submenu{
+            display: block;
+            background-color: #0babd3;
+            color: palevioletred;
+            transform: ease-in 0.35s;
+        }
+        .submenu>li>a:hover{
+            background-color: yellowgreen;
+            color: white;
+            transform: ease-in 0.35s;
+        }
